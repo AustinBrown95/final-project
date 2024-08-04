@@ -3,8 +3,6 @@ import React from 'react'
 import './App.css'
 import Container from './Container'
 import Nav from './Nav'
-import Page1 from './Page1'
-import Page2 from './Page2'
 
 
 function App() {
@@ -15,7 +13,6 @@ function App() {
           <Nav>
 
           </Nav>
-          <Page1></Page1>
         </Container>
       </header>
     </div>

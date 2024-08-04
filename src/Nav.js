@@ -9,7 +9,7 @@ const Nav = (props) => {
   const { current } = props
   return (
     <div>
-      <Menu selectedKeys={[current]} mode="horizontal">
+      <Menu mode="horizontal">
         <Menu.Item key='Page1'>
           <Link to={`/Page1`}>
             <HomeOutlined />Page 1
